@@ -37,6 +37,6 @@ The return format had been changed to **zero-based** indices. Please read the ab
 
 <div>
 
-<div id="similar" class="btn btn-xs btn-warning">Hide Similar Problems</div>
+<div id="similar" class="btn btn-xs btn-warning">Show Similar Problems</div>
 
-<span class="hidebutton" style="display: inline; opacity: 0.793892626146237;">[(M) 3Sum](/problems/3sum/) [(M) 4Sum](/problems/4sum/) [(M) Two Sum II - Input array is sorted](/problems/two-sum-ii-input-array-is-sorted/) [(E) Two Sum III - Data structure design](/problems/two-sum-iii-data-structure-design/)</span></div>
+<span class="hidebutton">[(M) 3Sum](/problems/3sum/) [(M) 4Sum](/problems/4sum/) [(M) Two Sum II - Input array is sorted](/problems/two-sum-ii-input-array-is-sorted/) [(E) Two Sum III - Data structure design](/problems/two-sum-iii-data-structure-design/)</span></div>
