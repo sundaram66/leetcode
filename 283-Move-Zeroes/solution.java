@@ -22,7 +22,7 @@ public class Solution {
           
           j++;
           
-          if(j==n) return;
+          if(j>=n) return;
           
           
           
