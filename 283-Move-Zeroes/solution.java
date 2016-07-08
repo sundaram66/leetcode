@@ -22,8 +22,10 @@ public class Solution {
           
           j++;
           
+          if(j==n) return;
           
-          if(i == n || j==n) return;
+          
+          
           
           
         }
