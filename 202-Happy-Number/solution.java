@@ -16,12 +16,15 @@ public class Solution {
 
                 if (sum == 1) return true;
 
-                
+                // To avoid loop indefinite, put calculated sum in a map, if same sum return false.
                 if (numbers.containsKey(sum)) {
                     return false;
                 } 
                 else
                         numbers.put(sum, 1);
+                        
+                        
+                        
                 num = sum;
                 sum = 0;
 
