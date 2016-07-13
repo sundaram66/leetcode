@@ -1,8 +1,8 @@
 public class Solution {
     public boolean containsNearbyDuplicate(int[] nums, int k) {
         
-       /* 
-       HashMap Solution : O(n) time, O(n) space
+        
+       //HashMap Solution : O(n) time, O(n) space
        
         Map<Integer,Integer> numbersMap = new HashMap<Integer,Integer>();
         int visitedIndex = 0;
@@ -18,9 +18,12 @@ public class Solution {
             numbersMap.put(nums[i],i);
             
         }
-        return false;*/
+        return false;
      
-        int len = nums.length;
+     
+       
+       /*  TLE 
+       int len = nums.length;
         
         for(int i=0;i<len;i++) {
             
@@ -39,7 +42,7 @@ public class Solution {
             
         }
         
-        return false;
+        return false;*/
         
     }
 }
