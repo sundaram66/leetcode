@@ -12,6 +12,12 @@ Given an array of integers, find out whether there are two distinct indices _i_ 
 
 <div>
 
+<div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
+
+<span class="hidebutton">[Airbnb](/company/airbnb/) [Palantir](/company/palantir/)</span></div>
+
+<div>
+
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
 <span class="hidebutton">[Binary Search Tree](/tag/binary-search-tree/)</span></div>
