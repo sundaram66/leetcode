@@ -18,11 +18,11 @@ public class Solution {
         if(l2 == null) return l1;
         
         if(l1.val > l2.val) {
-            currL2 = l2;
             l2 = l2.next;
             currL2.next = l1;
-            head = currL2;
             prevL1 = currL2;
+            
+            head = currL2;
         }
         
         
