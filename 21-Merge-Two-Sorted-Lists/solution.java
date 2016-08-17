@@ -11,7 +11,7 @@ public class Solution {
         
         ListNode head = l1;
         
-        ListNode currL1 = l1;
+        ListNode prevL1 = l1;
         ListNode currL2 = l2;
         
         if(l1 == null) return l2;
@@ -22,9 +22,10 @@ public class Solution {
             l2 = l2.next;
             currL2.next = l1;
             head = currL2;
+            prevL1 = currL2;
         }
         
-        ListNode prevL1 = l1;
+        
 
         while(l1 != null && l2 != null) {
             
@@ -40,6 +41,7 @@ public class Solution {
                 prevL1.next = l2;
                 l2 = l2.next;
                 currL2.next = l1;
+                prevL1 = currL2;
             }
         }
         
