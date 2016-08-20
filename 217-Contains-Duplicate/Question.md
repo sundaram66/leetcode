@@ -12,12 +12,6 @@ Given an array of integers, find if the array contains any duplicates. Your func
 
 <div>
 
-<div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
-
-<span class="hidebutton">[Airbnb](/company/airbnb/) [Palantir](/company/palantir/) [Yahoo](/company/yahoo/)</span></div>
-
-<div>
-
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
 <span class="hidebutton">[Array](/tag/array/) [Hash Table](/tag/hash-table/)</span></div>
