@@ -15,6 +15,12 @@ Could you do it in O(n) time and O(1) space?
 
 <div>
 
+<div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
+
+<span class="hidebutton">[Amazon](/company/amazon/) [Facebook](/company/facebook/)</span></div>
+
+<div>
+
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
 <span class="hidebutton">[Linked List](/tag/linked-list/) [Two Pointers](/tag/two-pointers/)</span></div>
