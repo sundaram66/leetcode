@@ -22,6 +22,12 @@ Special thanks to [@jianchao.li.fighter](https://leetcode.com/discuss/user/jianc
 
 <div>
 
+<div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
+
+<span class="hidebutton">[Bloomberg](/company/bloomberg/)</span></div>
+
+<div>
+
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
 <span class="hidebutton">[Binary Search](/tag/binary-search/) [Array](/tag/array/) [Two Pointers](/tag/two-pointers/)</span></div>
@@ -30,4 +36,4 @@ Special thanks to [@jianchao.li.fighter](https://leetcode.com/discuss/user/jianc
 
 <div id="similar" class="btn btn-xs btn-warning">Show Similar Problems</div>
 
-<span class="hidebutton">[(H) First Missing Positive](/problems/first-missing-positive/) [(M) Single Number](/problems/single-number/) [(M) Linked List Cycle II](/problems/linked-list-cycle-ii/) [(M) Missing Number](/problems/missing-number/)</span></div>
+<span class="hidebutton">[(H) First Missing Positive](/problems/first-missing-positive/) [(E) Single Number](/problems/single-number/) [(M) Linked List Cycle II](/problems/linked-list-cycle-ii/) [(M) Missing Number](/problems/missing-number/)</span></div>
