@@ -21,6 +21,12 @@ A = `[3,2,1,0,4]`, return `false`.
 
 <div>
 
+<div id="company_tags" class="btn btn-xs btn-warning">Show Company Tags</div>
+
+<span class="hidebutton">[Microsoft](/company/microsoft/)</span></div>
+
+<div>
+
 <div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
 
 <span class="hidebutton">[Array](/tag/array/) [Greedy](/tag/greedy/)</span></div>
