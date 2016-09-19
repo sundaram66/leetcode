@@ -11,8 +11,9 @@ public class Solution {
             maxIndex = Math.max(maxIndex,i+nums[i]);
         }
         
-        if(maxIndex >= n-1) return true;
-        if(maxIndex == 0 && n == 1) return true;
+        if(maxIndex >= n-1 || (maxIndex == 0 && n == 1)) return true;
+        
+        
         return false;
         
     }
