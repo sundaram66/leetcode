@@ -38,7 +38,7 @@ public class Solution {
         Stack<Integer> st = new Stack<Integer>();
         int max = 0;
         for (int i = 0; i <= a.length; i++) {
-            int currHeight = (i == a.length) ? -1 : a[i]; 
+            int currHeight = (i == a.length) ? 0 : a[i]; 
             
             while (!st.isEmpty() && currHeight <= a[st.peek()]) {
                 int h = a[st.pop()];
