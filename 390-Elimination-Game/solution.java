@@ -3,6 +3,9 @@ public class Solution {
         Stack<Integer> st1 = new Stack<Integer>();
         Stack<Integer> st2 = new Stack<Integer>();
         
+        if(n == 1) return 1;
+        if(n <=5) return 2;
+        
         for(int i=2;i<=n;i+=2) {
             st1.push(i);
         }
