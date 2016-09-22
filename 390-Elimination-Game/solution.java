@@ -9,7 +9,7 @@ public class Solution {
         while(remaining > 1) {
             
             if(lr || remaining % 2 ==1 ){
-                start = start + step;
+                start += step;
             }
             
             remaining /= 2;
