@@ -1,29 +1,23 @@
 public class Solution {
     public int lastRemaining(int n) {
-        Stack<Integer> st1 = new Stack<Integer>();
-        Stack<Integer> st2 = new Stack<Integer>();
+
+        int step = 1;
+        int start = 1;
+        boolean lr = true;
+        int remaining = n;
         
-        if(n == 1) return 1;
-        if(n <=5) return 2;
-        
-        for(int i=2;i<=n;i+=2) {
-            st1.push(i);
+        while(remaining > 1) {
+            
+            if(lr || remaining % 2 ==1 ){
+                start = start + step;
+            }
+            
+            remaining /= 2;
+            step *= 2;
+            lr = !lr;
+            
         }
-        
-        while(true) {
-        if(st1.size() == 1) return st1.pop();
-        
-        while(!st1.isEmpty()) {
-            st1.pop();
-            if(!st1.isEmpty()) st2.push(st1.pop());
-        }
-        
-        if(st2.size() == 1) return st2.pop();
-        
-        while(!st2.isEmpty()) {
-            st2.pop();
-            if(!st2.isEmpty()) st1.push(st2.pop());
-        }
-        }
+
+        return start;
     }
 }
