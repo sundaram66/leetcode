@@ -13,11 +13,12 @@ public class Solution {
 
         int max = firstVal;
         
-        for(int i=1;i<=n;i++) {
-            firstVal = firstVal- totalSum + (a[i-1]*n);
-            max = Math.max(max,firstVal);
+        for(int i=1;i<n;i++) {
+            firstVal = firstVal- totalSum + a[i-1]*n;
+            if(max < firstVal) {
+                max = firstVal;
+            }
         }
-        
         return max;
     }
 }
